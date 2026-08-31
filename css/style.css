@@ -927,6 +927,24 @@ a {
   margin-bottom: 14px;
 }
 
+/* Timeline kloter grid */
+.timeline-kloter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.timeline-kloter .rundown-session-label {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .timeline-kloter-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
 /* Rundown Table */
 .rundown-session-label {
   font-size: 0.75rem;
